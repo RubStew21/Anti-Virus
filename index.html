@@ -1,40 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>GitGone Security Solutions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitGone™ - Ultimate Gaming Protection</title>
     <style>
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #1a1a1a;
+            background-color: #0a0a0a;
             color: #ffffff;
+            line-height: 1.6;
         }
 
         .header {
             background-color: #000000;
             padding: 20px;
             border-bottom: 3px solid #00ff00;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
         }
 
         .logo {
-            font-size: 36px;
+            font-size: 42px;
             color: #00ff00;
             font-weight: bold;
-            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            text-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+            font-family: 'Arial Black', sans-serif;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 40px 20px;
             text-align: center;
+        }
+
+        .hero-section {
+            background-color: #1a1a1a;
+            padding: 50px 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border: 1px solid #00ff00;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.1);
         }
 
         .security-icon {
             font-size: 80px;
             color: #00ff00;
             margin: 20px 0;
+            text-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
         }
 
         .message {
@@ -42,6 +58,7 @@
             color: #cccccc;
             margin: 30px 0;
             line-height: 1.5;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
         }
 
         .download-button {
@@ -56,6 +73,8 @@
             display: inline-block;
             transition: all 0.3s ease;
             box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+            font-weight: bold;
+            margin: 20px 0;
         }
 
         .download-button:hover {
@@ -67,57 +86,62 @@
         .features {
             display: flex;
             justify-content: space-around;
-            margin-top: 50px;
-            margin-bottom: 50px;
+            flex-wrap: wrap;
+            margin: 50px 0;
+            gap: 20px;
         }
 
         .feature-box {
-            background-color: #2a2a2a;
-            padding: 20px;
+            background-color: #1a1a1a;
+            padding: 30px;
             border-radius: 10px;
-            width: 200px;
+            width: 250px;
             margin: 10px;
             border: 1px solid #00ff00;
+            transition: all 0.3s ease;
         }
 
-        .status-bar {
-            background-color: #2a2a2a;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            text-align: left;
-            border-top: 1px solid #00ff00;
+        .feature-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+        }
+
+        .feature-box h3 {
+            color: #00ff00;
+            margin-bottom: 15px;
         }
 
         .contact-section {
-            background-color: #2a2a2a;
-            padding: 30px;
+            background-color: #1a1a1a;
+            padding: 40px;
             margin-top: 50px;
-            border-radius: 10px;
+            border-radius: 15px;
             border: 1px solid #00ff00;
         }
 
         .contact-title {
             color: #00ff00;
-            font-size: 28px;
+            font-size: 32px;
             margin-bottom: 20px;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
         }
 
         .contact-info {
             font-size: 20px;
             color: #ffffff;
-            line-height: 1.6;
+            line-height: 1.8;
         }
 
-        .contact-info a {
+        .status-bar {
+            background-color: #1a1a1a;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: left;
+            border-top: 1px solid #00ff00;
+            font-size: 14px;
             color: #00ff00;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .contact-info a:hover {
-            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
         }
     </style>
 </head>
@@ -127,44 +151,46 @@
     </div>
 
     <div class="container">
-        <div class="security-icon">🛡️</div>
-        
-        <h1>Advanced Security Protection</h1>
-        
-        <div class="message">
-            Thanks for trusting us with your safety! Please click here to start your free download and up your protection today!
-        </div>
+        <div class="hero-section">
+            <div class="security-icon">🛡️</div>
+            
+            <h1>Level Up Your PC Protection</h1>
+            
+            <div class="message">
+                Thanks for trusting us with your safety! Please click here to start your free download and up your protection today!
+            </div>
 
-        <a href="https://docs.google.com/document/d/1yV-olcCLRCH5KbneXZPbyg4eWva4d3icPaPj__pLl0I/edit?usp=sharing" class="download-button">
-            DOWNLOAD NOW
-        </a>
+            <a href="https://docs.google.com/document/d/1yV-olcCLRCH5KbneXZPbyg4eWva4d3icPaPj__pLl0I/edit?usp=sharing" class="download-button">
+                DOWNLOAD NOW
+            </a>
+        </div>
 
         <div class="features">
             <div class="feature-box">
-                <h3>Real-Time Protection</h3>
-                <p>24/7 Security Monitoring</p>
+                <h3>🎮 Gamer Mode</h3>
+                <p>Zero impact on game performance while maintaining maximum security</p>
             </div>
             <div class="feature-box">
-                <h3>Threat Detection</h3>
-                <p>Advanced Scanning Engine</p>
+                <h3>⚡ Real-Time Protection</h3>
+                <p>24/7 Security Monitoring with AI-powered threat detection</p>
             </div>
             <div class="feature-box">
-                <h3>Smart Firewall</h3>
-                <p>Intelligent Protection</p>
+                <h3>🔥 Smart Firewall</h3>
+                <p>Advanced protection against DDoS and gaming-specific threats</p>
             </div>
         </div>
 
         <div class="contact-section">
             <div class="contact-title">Contact Us Today!</div>
             <div class="contact-info">
-                <p>📞 <a href="tel:18001234567">1 (800) 123-4567</a></p>
-                <p>📧 <a href="mailto:gitgudtoday@malware.net">gitgudtoday@malware.net</a></p>
+                <p>📞 1 (800) 123-4567</p>
+                <p>📧 gitgudtoday@malware.net</p>
             </div>
         </div>
     </div>
 
     <div class="status-bar">
-        System Status: Protected ✓
+        System Status: Protected ✓ | Threat Database: Updated | Gaming Mode: Active
     </div>
 </body>
 </html>
